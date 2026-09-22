@@ -795,15 +795,15 @@ html.js .growth.in .growth__bar { transform: none; }
   .panel { padding-top: 96px; padding-bottom: 88px; }
   .meta-bar { top: 28px; }
   .meta-bar span:nth-child(2):not(:last-child) { display: none; }
-  .display { font-size: 44px; }
+  .display { font-size: clamp(34px, 11cqi, 44px); }
   .h3 { font-size: 21px; }
   .lede { font-size: 16px; }
   .section-head { margin: 32px 0 48px; gap: 18px; }
 
   .hero { padding-top: 104px; row-gap: 28px; }
-  .hero__year { font-size: 34px; }
-  .hero__title { font-size: 66px; }
-  .hero__claim { font-size: 34px; }
+  .hero__year { font-size: clamp(26px, 9cqi, 34px); }
+  .hero__title { font-size: clamp(48px, 17.5cqi, 66px); }
+  .hero__claim { font-size: clamp(26px, 9cqi, 34px); }
   .hero__sub { font-size: 15px; }
   .hero__object-wrap { place-items: end end; opacity: 0.55; }
   .hero__object { height: 62svh; margin: 0 -38cqi 10svh 0; }
@@ -818,7 +818,7 @@ html.js .growth.in .growth__bar { transform: none; }
   .brief dd span { font-size: 12px; }
   .kpi { padding: 24px 12px 26px 0; }
   .kpi:nth-child(2n) { padding-left: 16px; }
-  .kpi__num { font-size: 42px; }
+  .kpi__num { font-size: clamp(32px, 11cqi, 42px); }
   .kpi__label { font-size: 14px; margin-top: 10px; }
   .kpi__note { font-size: 11.5px; line-height: 1.55; }
 
@@ -841,7 +841,7 @@ html.js .growth.in .growth__bar { transform: none; }
 
   .cover { min-height: 88svh; }
   .cover__num { font-size: 64px; }
-  .cover__title { font-size: 58px; }
+  .cover__title { font-size: clamp(44px, 15cqi, 58px); }
   .cover__sub { font-size: 17px; }
 
   .facts li { grid-template-columns: 1fr; gap: 6px; }
@@ -904,7 +904,7 @@ html.js .growth.in .growth__bar { transform: none; }
   .os__steps li b { font-size: 24px; }
 
   .closing { padding-top: 104px; }
-  .closing__title { font-size: 48px; }
+  .closing__title { font-size: clamp(36px, 12.5cqi, 48px); }
   .closing__text { font-size: 15.5px; }
   .contact .pill { width: 100%; }
   .closing__foot { flex-direction: column; align-items: flex-start; }
